@@ -1,0 +1,16 @@
+{
+  "name": "projeto-conferencia",
+  "version": "1.0.0",
+  "description": "conferência PDX",
+  "main": "back-end.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "author": "Rafael Barboza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
