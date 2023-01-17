@@ -1,0 +1,91 @@
+h1 {
+  text-align: center;
+  margin: 10px;
+  text-decoration: underline;
+}
+.tela_conferencia {
+  color: #fff;
+  background-color: #0f0f0f;
+  margin: 50px;
+  margin-left: 150px;
+  padding: 20px;
+  border-radius: 18px;
+  max-width: 1000px;
+  width: 100%;
+  height: 480px;
+  opacity: 0.5;
+}
+
+.tela_conferencia:hover {
+  color: #fff;
+  background-color: #0f0f0f;
+  margin: 50px;
+  margin-left: 150px;
+  padding: 20px;
+  border-radius: 18px;
+  max-width: 1000px;
+  width: 100%;
+  height: 480px;
+  opacity: 0.9;
+}
+
+.cadastro_cliente {
+  color: #ffffff;
+  max-width: 1000px;
+  width: 450px;
+  text-align: left;
+  display: inline;
+  line-height: 20pt;
+}
+
+.lista_conferencia {
+  color: #ffffff;
+  display: flexbox;
+  text-align: right;
+  max-width: 450px;
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+
+.lista_produtos {
+  height: 330px;
+  width: 1000px;
+  border-radius: 4px;
+}
+
+.tamanho {
+  width: 100px;
+  display: inline;
+  height: 20px;
+}
+
+.tamanho1 {
+  width: 450px;
+  display: inline;
+  height: 20px;
+}
+
+.lbl {
+  line-height: 30px;
+  display: inline;
+  font-size: 1.4em;
+  text-decoration: underline;
+  line-height: 30pt;
+  text-align: center;
+}
+
+.lbl1 {
+  display: inline;
+}
+
+button {
+  padding: 5px;
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  font-size: 1em;
+  font-weight: bolder;
+  font-family: Arial;
+  cursor: pointer;
+}

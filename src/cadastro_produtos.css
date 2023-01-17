@@ -1,34 +1,36 @@
-h2 {
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
   text-align: center;
-  margin: 10px;
+  margin: 0px;
   text-decoration: underline;
   color: #fff;
 }
-
-.cad_cliente {
+.grupo_cadastro {
+  background-color: #0f0f0f;
+  max-width: 1000px;
+  width: 1000px;
+  padding: 20px 50px 10px 30px;
   margin: 50px;
   margin-left: 150px;
-  padding: 30px;
   border-radius: 18px;
-  background-color: #0f0f0f;
-  opacity: 0.6;
   color: #ffffff;
-  display: inline-block;
-  max-width: 960px;
-  width: 960px;
+  display: block;
+  opacity: 0.5;
 }
-
-.cad_cliente:hover {
+.grupo_cadastro:hover {
+  background-color: #0f0f0f;
+  max-width: 1000px;
+  width: 1000px;
+  padding: 20px 50px 10px 30px;
   margin: 50px;
   margin-left: 150px;
-  padding: 30px;
   border-radius: 18px;
-  background-color: #0f0f0f;
-  opacity: 0.9;
   color: #ffffff;
-  display: inline-block;
-  max-width: 960px;
-  width: 960px;
+  display: block;
+  opacity: 0.9;
 }
 
 .tamanho {
@@ -48,11 +50,11 @@ h2 {
 label,
 input {
   display: block;
-  line-height: 30px;
+  line-height: 25px;
   border-radius: 4px;
 }
 input {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 button {

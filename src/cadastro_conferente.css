@@ -6,7 +6,7 @@ h2 {
 }
 
 .cad_cliente {
-  margin: 50px;
+  margin: 100px;
   margin-left: 150px;
   padding: 30px;
   border-radius: 18px;
@@ -19,7 +19,7 @@ h2 {
 }
 
 .cad_cliente:hover {
-  margin: 50px;
+  margin: 100px;
   margin-left: 150px;
   padding: 30px;
   border-radius: 18px;

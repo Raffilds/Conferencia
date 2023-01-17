@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="cadastro_produtos.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="back-end.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#">Cadastros</a>
+                <ul>
+                    <li><a href="cadastro_clientes.html">Clientes</a></li>
+                    <li><a href="cadastro_conferente.html">Conferente</a></li>
+                    <li><a href="cadastro_produtos.html">Produtos</a></li>
+                </ul>
+
+            </li>
+            <li><a href="conferencia.html">Conferência</a></li>
+            <li><a href="login.html">Sair</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="grupo_cadastro">
+        <div class="cad_produto">
+            <h1>Cadastro de Produtos</h1>
+            <label class="lblnames" for="Cod_cliente">Código Cliente</label>
+            <input class="tamanho" type="text" name="cod_cliente" id="cod_cliente">
+            <label class="lblnames" for="razao social">Razão Social</label>
+            <input class="tamanho1" type="text" name="razao_social" id="razao_social">
+            <label class="lblnames" for="fantasia">Nome Fantasia</label>
+            <input class="tamanho1" type="text" name="fantasia" id="fantasia">
+            <label class="lblnames" for="CNPJ">CNPJ</label>
+            <input class="tamanho2" type="text" name="CNPJ" id="CNPJ">
+
+        </div>
+        <div class="info_produto">
+            <label class="lblnames" for="cod_produto">Código do Produto</label>
+            <input type="text" name="cod_produto" id="cod_produto">
+            <label class="lblnames" for="nome_produto">Nome do Produto</label>
+            <input class="tamanho2" type="text" name="nome_produto" id="nome_produto">
+            <label class="lblnames" for="qtd_embalagem">Qtd. itens na embalagem</label>
+            <input class="tamanho" type="text" name="qtd_embalagem" id="qtd_embalagem">
+            <button class="btn_salvar" onclick="salvar">Salvar</button>
+            <button class="btn_excluir" onclick="excluir">Exluir</button>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; Rafael Barboza - Todos os Direitos Reservados. </p>
+    </footer>
+</body>
+
+</html>
